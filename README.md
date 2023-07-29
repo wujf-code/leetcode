@@ -55,7 +55,7 @@ git config --global core.editor "'D:/Notepad++/notepad++.exe' -multiInst -notabb
 
 ### 记录每次更新到仓库
 
-* 文件的状态变化周期![git文件的状态变化周期](D:\Desktop\git_leecode\assets\lifecycle.png)
+* 文件的状态变化周期![git文件的状态变化周期](D:\Desktop\git_leecode\README.assets\lifecycle.png)
 *  检查当前文件状态
 
 ```powershell
@@ -65,7 +65,7 @@ git status -s	# 状态简览 ??:(untracked)未跟踪、M:(Modified)已修改、A
 
 * 跟踪新文件
 
-  ```
+  ```powershell
   git add <fileName> 
   ```
 
