@@ -55,7 +55,7 @@ git config --global core.editor "'D:/Notepad++/notepad++.exe' -multiInst -notabb
 
 ### 记录每次更新到仓库
 
-* 文件的状态变化周期![git文件的状态变化周期](D:\Desktop\git_leecode\README.assets\lifecycle.png)
+* 文件的状态变化周期![git文件的状态变化周期](D:\Desktop\git_leecode\assets\lifecycle.png)
 *  检查当前文件状态
 
 ```powershell
