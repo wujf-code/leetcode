@@ -7,6 +7,12 @@
  * 请在不使用内置的 Array.filter 方法的情况下解决该问题。
  */
 
+/**
+ * 循环遍历实现
+ * @param {Array<Number>} arr 
+ * @param {Function} fn 
+ * @returns {Array<Number>}
+ */
 const filter = function (arr, fn) {
     let returnedArray = []
     for (let i = 0; i < arr.length; i++) {
