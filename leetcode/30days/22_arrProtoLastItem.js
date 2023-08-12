@@ -12,5 +12,6 @@
  */
 
 Array.prototype.last = function () {
-    return this.length ? this.pop():-1
+    let len = this.length
+    return len ? this[len-1]:-1
   }
